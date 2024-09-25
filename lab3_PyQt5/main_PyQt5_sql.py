@@ -8,7 +8,7 @@ import csv
 from datetime import datetime
 import re
 import sqlite3
-conn = sqlite3.connect('../Database/schoolsystem.sqlite')
+conn = sqlite3.connect('./Database/schoolsystem.sqlite')
 cursor = conn.cursor()
 
 class SchoolManagementApp(QWidget):
