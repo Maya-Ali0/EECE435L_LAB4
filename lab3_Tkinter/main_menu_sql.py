@@ -3,7 +3,7 @@ from tkinter import messagebox, ttk
 from tkinter.simpledialog import askstring
 import sqlite3
 
-conn = sqlite3.connect('../Database/schoolsystem.sqlite')
+conn = sqlite3.connect('./Database/schoolsystem.sqlite')
 cursor = conn.cursor()
 print(conn)
 
